@@ -1,3 +1,4 @@
+// je met le body juste psq je vais créer mes propres éléms globeaux (ex: mes btns de diff couleur)
 body{
     background-color: bisque;
     font-family: 'Roboto',sans-serif;
@@ -18,13 +19,17 @@ header{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        img{
+            width: 200px;
+
+        }
     }
 
     .burger {
         margin-top: 10px;
         width: 60px;
-        height: 40px;
-        background-color: rgba(7, 7, 7,);
+        height: 35px;
+        background-color: rgba(7, 7, 7,0.01);
         border: 1px solid rgba(0, 0, 0,0.1);
         border-radius: 5px;
         
