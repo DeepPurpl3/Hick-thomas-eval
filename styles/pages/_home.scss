@@ -1,0 +1,70 @@
+body{
+    background-color: bisque;
+    font-family: 'Roboto',sans-serif;
+    font-size: 18 px;
+    line-height: 1.5;
+    font-weight: 400;
+    
+    .ninja{
+        display: none;
+    }
+    .is-flex{
+        display: flex;
+        align-items: center;
+    }
+}
+header{
+    .container-nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .burger {
+        margin-top: 10px;
+        width: 60px;
+        height: 40px;
+        background-color: rgba(7, 7, 7,);
+        border: 1px solid rgba(0, 0, 0,0.1);
+        border-radius: 5px;
+        
+        span {
+            padding: 1px;
+            display: block;
+            height: 3px;
+            background: #fcfcfc;
+            margin: 4px auto;
+            width: 50%;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // large
+     @media screen and (min-width:960px){
+
+     }
+     //Medium
+     @media screen and (min-width:576px) and (max-width:960px){
+    
+    }
+        
+    }
+}
+ 
+ 
