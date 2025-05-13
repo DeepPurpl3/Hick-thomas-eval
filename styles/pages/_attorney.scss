@@ -1,8 +1,65 @@
-  // large
-  @media screen and (min-width:960px){
-    display: ;
+body {
+    background-color: #c9d8f3;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    // display: block;
+    img{
+        max-width: fit-content;
+    }
+}
+nav {
+    background-color: #ffffff;
+    height: 150px;
+    align-content: center;
+    
+}
+.logo {
+    width: 45%;
+}
+.liens {
+    gap: 1rem;
+    padding: 50px;
+    display: flex;
+    a {
+        text-decoration: none;
+        color: #000;
+        font-size: 26px;
+        &:hover{
+            color: blue;
+        }
+    }    
+}
+is-flex {
+    display: flex;
+    gap: 1rem;
+}
+.porte {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    // aspect-ratio: 1/1;
+    width: fit-content;
+    
+}
+.champions {
+    display: block;
+    max-width: 100%;
+}
+
+
+
+
+
+
+
+footer {
+    color: #555;
+}    
+
+@media screen and (min-width:960px){
+    
   }
-  //Medium
-  @media screen and (min-width:576px) and (max-width:960px){
- 
+  
+@media screen and (min-width:576px) and (max-width:960px){
+    
  }
